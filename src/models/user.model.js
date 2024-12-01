@@ -81,14 +81,11 @@ userSchema.methods.generateAccessToken = function (password) {
 userSchema.methods.generateRefreshToken = function (password) {
     return jwt.sign({
         _id: this._id,
-
-
     },
         process.env.REFRESH_TOKEN_SECRET,
         {
             expiresIn: process.env.REFRESH_TOKEN_EXPIRY
         }
-
     )
 }
 
