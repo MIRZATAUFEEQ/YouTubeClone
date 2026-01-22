@@ -417,9 +417,4 @@ export {
     updateAccountDetails,
     updateUserAvatar,
     updateUserCoverImage,
-<<<<<<< HEAD
-    getUserChannelProfile,
-    getWatchHistory
-=======
->>>>>>> 57bf26d9f305364ba8230cc991e51f96d42806ac
 }
